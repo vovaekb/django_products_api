@@ -1,7 +1,7 @@
 # django_products_api
 
 
-Simple REST API application on Python Django REST Framework.
+🛍️ Simple REST API application on Python Django REST Framework.
 
 Features:
 - admin panel with ability to edit products and categories
