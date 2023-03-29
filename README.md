@@ -24,4 +24,4 @@ To see products API data open page:  http://127.0.0.1:8000/api/products/.
 
 To see categories API data open page:  http://127.0.0.1:8000/api/categories/.
 
-TO see Swagger documentation open page: http://127.0.0.1:8000/swagger/.
+To see Swagger documentation open page: http://127.0.0.1:8000/swagger/.
