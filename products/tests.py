@@ -10,7 +10,7 @@ TEST_SIZE = 10
 class TestCategory(APITestCase):
     def setUp(self):
         self.categories = []
-        # create a set of test ads
+        # create a set of test categories
         for i in range(TEST_SIZE):
             category = Category.objects.create(name='test_category_%s' % i)
             self.categories.append(category)
@@ -24,7 +24,7 @@ class TestCategory(APITestCase):
 class TestProducts(APITestCase):
     def setUp(self):
         self.products = []
-        # create a set of test ads
+        # create a set of test products
         for i in range(TEST_SIZE):
             product = Product.objects.create(title='test_product_%s' % i)
             self.products.append(product)
