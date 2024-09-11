@@ -2,6 +2,9 @@ from django.db import models
 
 
 class Category(models.Model):
+    '''
+    Stores a single category
+    '''
     name = models.CharField(max_length=20, null=False)
 
     def __str__(self):
@@ -9,6 +12,9 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+    '''
+    Stores a single product
+    '''
     title = models.CharField(max_length=30, null=False)
     price = models.IntegerField()
     published = models.BooleanField(default=False)
